@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comercio Rapido</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-image-container">
+        <img src="img/comercio-rapido-default.png" alt="Comercio Rapido" class="header-image">
+    </div>
+    <h1>Encontre Seu Perfume Perfeito</h1>
+    <p>Fragrâncias sofisticadas e únicas para você!</p>
+  </header>
+
+  <section id="products">
+    <div class="product">
+      <img src="img/products/empoderada.png" alt="Emponderada">
+      <div class="description">
+        <h2>Emponderada</h2>
+        <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+        <div class="notes">
+            <p><strong>Família Olfativa:</strong> Floral, Frutada, Almiscarada</p>
+            <p><strong>Notas de Topo:</strong> Bergamota, Blend de Frutas Vermelhas e Flor de Laranjeira</p>
+            <p><strong>Notas de Coração:</strong> Tuberosa, Jasmim e Magnólia</p>
+            <p><strong>Notas de Base:</strong> Cedro, Baunilha e Musk</p>
+        </div>
+        <p>Empoderada é uma fragrância única que celebra a força e a determinação feminina. Com notas florais, frutadas e almiscaradas, é ideal para mulheres que abraçam a vida. Perfeita para encontros românticos, eventos sociais ou uso diário, esta essência eleva a autoestima e exala confiança. Versátil e envolvente, é a escolha certa para deixar sua marca em qualquer ocasião.</p>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="img/products/everyday.png" alt="Every Day">
+      <div class="description">
+        <h2>Every Day</h2>
+        <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+        <div class="notes">
+            <p><strong>Família Olfativa:</strong> Frutado, Amadeirado, Adocicado</p>
+            <p><strong>Notas de Topo:</strong> Mandarina, Pêssego, Lichia e Framboesa</p>
+            <p><strong>Notas de Coração:</strong> Rosa, Patchouli e Violeta</p>
+            <p><strong>Notas de Base:</strong> Baunilha, Caramelo e Fava Tonka</p>
+        </div>
+        <p>Mais do que uma fragrância, EveryDay é uma história de amor repleta de mistério, paixão e sensualidade. Exalando desejo e feminilidade, esta essência é ideal para ocasiões especiais, encontros românticos ou uso diário, permitindo que mulheres se sintam irresistíveis e confiantes. Versátil e envolvente, EveryDay é a escolha perfeita para expressar paixão em qualquer ambiente, desde jantares românticos até tardes de compras.</p>
+      </div>
+    </div>
+
+    <div class="product">
+        <img src="img/products/delirium.png" alt="Delirium">
+        <div class="description">
+          <h2>Delirium</h2>
+            <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+            <div class="notes">
+                <p><strong>Família Olfativa:</strong> Floral, Frutado, Amadeirado</p>
+                <p><strong>Notas de Topo:</strong> Mandarina, Damasco e Pêssego</p>
+                <p><strong>Notas de Coração:</strong> Magnólia, Lírio do Vale e Rosa</p>
+                <p><strong>Notas de Base:</strong> Sândalo, Almíscar e Baunilha</p>
+            </div>
+            <p>Uma homenagem à feminilidade moderna, Delirium é uma fragrância luxuosa e empoderada que celebra a mulher como protagonista de sua própria história. Ideal para expressar feminilidade e poder pessoal, esta essência versátil é perfeita para encontros românticos, eventos sociais ou uso diário, elevando a autoestima e a confiança em qualquer ocasião.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/products/courage.png" alt="Courage">
+        <div class="description">
+          <h2>Courage</h2>
+          <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+          <div class="notes">
+              <p><strong>Família Olfativa:</strong> Floral, Frutado, Adocicado</p>
+              <p><strong>Notas de Topo:</strong> Bergamota, Amêndoas Doce e Pêra</p>
+              <p><strong>Notas de Coração:</strong> Jasmim, Flor de Laranjeira e Rosa</p>
+              <p><strong>Notas de Base:</strong> Fava Tonka, Baunilha e Musk</p>
+          </div>
+          <p>Uma fragrância audaciosa que exala poder e sensualidade, COURAGE é perfeita para mulheres determinadas que buscam conquistar o mundo. Ideal para ocasiões especiais ou para uso diário, essa essência versátil eleva a autoestima e deixa uma impressão marcante, sendo a escolha certa para expressar confiança e feminilidade em qualquer ambiente.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/products/majestic.png" alt="Majestic">
+        <div class="description">
+          <h2>Majestic</h2>
+          <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+          <div class="notes">
+              <p><strong>Família Olfativa:</strong> Frutada, Floral, Amadeirada</p>
+              <p><strong>Notas de Topo:</strong> Bergamota, Damasco e Pêra</p>
+              <p><strong>Notas de Coração:</strong> Lírio do Vale, Rosa e Jasmim</p>
+              <p><strong>Notas de Base:</strong> Patchouli, Cedro e Baunilha</p>
+          </div>
+          <p>Uma fragrância que combina leveza e frescor, Majestic redefine o sucesso para uma geração confiante e questionadora. Perfeita para transmitir determinação em qualquer ocasião, esta essência versátil é ideal para uso diário, encontros sociais ou momentos de reflexão, sendo a escolha certa para mulheres que desejam se destacar e conquistar o mundo.</p>
+        </div>
+      </div>
+
+      <hr class="line">
+
+      <div class="product">
+        <img src="img/products/change.png" alt="Change">
+        <div class="description">
+          <h2>Change</h2>
+          <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+          <div class="notes">
+              <p><strong>Família Olfativa:</strong> Aromática Amadeirada Almiscarada</p>
+              <p><strong>Notas de Topo:</strong> Limão, Lavanda e Maçã</p>
+              <p><strong>Notas de Coração:</strong> Cedro, Patchouli e Couro</p>
+              <p><strong>Notas de Base:</strong> Vetiver, Baunilha e Musk</p>
+          </div>
+          <p>Uma fragrância que exala autoconfiança e boas energias, CHANGE é ideal para homens que buscam bem-estar e estilo. Perfeita para o uso diário, esta essência versátil é a escolha certa para irradiar positividade em qualquer momento, seja no trabalho, em encontros casuais ou durante momentos de lazer.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/products/evolution.png" alt="Evolution">
+        <div class="description">
+          <h2>Evolution</h2>
+          <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+          <div class="notes">
+              <p><strong>Família Olfativa:</strong> Fougère Aromático Amadeirado</p>
+              <p><strong>Notas de Topo:</strong> Lavanda, Bergamota e Maçã</p>
+              <p><strong>Notas de Coração:</strong> Canela, Palo Santo e Vetiver</p>
+              <p><strong>Notas de Base:</strong> Sândalo, Âmbar e Musk</p>
+          </div>
+          <p>Uma fragrância marcante e enigmática que exala sensualidade e mistério, EVOLUTION é ideal para homens poderosos que desejam fazer uma declaração de confiança e sofisticação. Perfeita para eventos sociais e encontros românticos, essa essência versátil é a escolha certa para deixar uma impressão duradoura em qualquer ambiente.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/products/imparavel.png" alt="Imparavel">
+        <div class="description">
+          <h2>Imparavel</h2>
+          <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+          <div class="notes">
+              <p><strong>Família Olfativa:</strong> Aromática Oriental</p>
+              <p><strong>Notas de Topo:</strong> Lavanda, Limão e Noz Moscada</p>
+              <p><strong>Notas de Coração:</strong> Blend de Pimentas, Vetiver e Musgo de Carvalho</p>
+              <p><strong>Notas de Base:</strong> Âmbar, Baunilha e Fava Tonka</p>
+          </div>
+          <p>Uma fragrância que une frescor e intensidade, cativando com suas notas vibrantes. Ideal para homens que buscam se destacar em momentos especiais, como encontros e festas, IMPARÁVEL é versátil e perfeita para deixar uma impressão duradoura em qualquer ambiente.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/products/move-on.png" alt="Move On">
+        <div class="description">
+            <h2>Move On</h2>
+            <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+            <div class="notes">
+                <p><strong>Família Olfativa:</strong> Aromático Amadeirado Especiado</p>
+                <p><strong>Notas de Topo:</strong> Lavanda, Gengibre, Limão</p>
+                <p><strong>Notas de Coração:</strong> Cedro, Patchouli, Noz Moscada</p>
+                <p><strong>Notas de Base:</strong> Vetiver, Fava Tonka, Âmbar</p>
+            </div>
+            <p>É uma fragrância hedonista que atinge o equilíbrio perfeito entre frescor e calor. Destinado a homens ousados e destemidos, esta essência é uma declaração de estilo e aventura.</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="img/products/rox247.png" alt="Rox 247">
+        <div class="description">
+            <h2>Rox 247</h2>
+            <button class="toggle-notes" onclick="toggleNotes(this)">Ver Notas</button>
+            <div class="notes">
+                <p><strong>Família Olfativa:</strong> Fougère Aromática Oriental</p>
+                <p><strong>Notas de Topo:</strong> Lavanda, Limão Siciliano, Neroli</p>
+                <p><strong>Notas de Coração:</strong> Noz-moscada, Musgo de Carvalho, Sândalo</p>
+                <p><strong>Notas de Base:</strong> Âmbar, Musk, Baunilha</p>
+            </div>
+            <p>Uma fragrância que equilibra frescor e calor, perfeita para homens autoconfiantes. Ideal para ocasiões especiais, encontros e ambientes profissionais, garantindo uma presença marcante e sofisticada.</p>
+        </div>
+      </div>
+
+  </section>
+
+  <hr class="line">
+
+  <section id="contact">
+    <h2>Entre em contato</h2>
+    <p id="email">vendas.comerciorapido@gmail.com</p>
+    <!--<form id="form-contact" action="https://wa.me/WP" method="get">-->
+    <form id="form-contact" action="mailto:vendas.comerciorapido@gmail.com" method="get" enctype="text/plain">
+        <!--<input type="text" name="nome" placeholder="Seu nome" required>-->
+        <!--<input type="email" name="email" placeholder="Seu email">-->
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar Email</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Vendas Comércio Rápido. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
