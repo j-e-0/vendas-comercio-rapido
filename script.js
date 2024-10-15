@@ -1,20 +1,15 @@
-document.querySelector("#form-contact").addEventListener("submit", function(event) {
-    //event.preventDefault();
-  
-    //let nome = document.querySelector('input[name="nome"]').value;
-    //let mensagem = document.querySelector('textarea[name="mensagem"]').value;
-    
-    //let url = `https://wa.me/SEUNUMERODEWHATSAPP?text=Olá, meu nome é ${nome}. ${mensagem}`;
-    
-    //window.open(url, "_blank");
-});
-
 document.getElementById('email').addEventListener('click', function() {
     const emailText = this.innerText;
 
-    navigator.clipboard.writeText(emailText).then(() => {
-        alert('E-mail copiado: ' + emailText);
-    }).catch(err => {
+    navigator.clipboard.writeText(emailText).then(() => {}).catch(err => {
+        console.error('Erro ao copiar o texto: ', err);
+    });
+});
+
+document.getElementById('key').addEventListener('click', function() {
+    const key = "MDAwMjAxMDEwMjExMjY1MzAwMTRici5nb3YuYmNiLnBpeDAxMzF2ZW5kYXMuY29tZXJjaW9yYXBpZG9AZ21haWwuY29tNTIwNDAwMDA1MzAzOTg2NTgwMkJSNTkxMkpvaG5ueSBFd2VydDYwMDlTQU8gUEFVTE82MjI5MDUyNTFKQThSSEhGTkFQTVJQOFA5RUgwVDY2Uko2MzA0OTA5NA==";
+
+    navigator.clipboard.writeText(atob(key)).then(() => {}).catch(err => {
         console.error('Erro ao copiar o texto: ', err);
     });
 });
