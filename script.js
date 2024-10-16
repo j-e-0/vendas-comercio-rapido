@@ -7,7 +7,7 @@ document.getElementById('email').addEventListener('click', function() {
 });
 
 document.getElementById('key').addEventListener('click', function() {
-    const key = "MDAwMjAxMDEwMjExMjY1MzAwMTRici5nb3YuYmNiLnBpeDAxMzF2ZW5kYXMuY29tZXJjaW9yYXBpZG9AZ21haWwuY29tNTIwNDAwMDA1MzAzOTg2NTgwMkJSNTkxMkpvaG5ueSBFd2VydDYwMDlTQU8gUEFVTE82MjI5MDUyNTFKQThSSEhGTkFQTVJQOFA5RUgwVDY2Uko2MzA0OTA5NA==";
+    const key = "MDAwMjAxMjY1MzAwMTRCUi5HT1YuQkNCLlBJWDAxMzF2ZW5kYXMuY29tZXJjaW9yYXBpZG9AZ21haWwuY29tNTIwNDAwMDA1MzAzOTg2NTgwMkJSNTkxNE1lcmNhZG8gUmFwaWRvNjAwOVNBTyBQQVVMTzYyMDcwNTAzKioqNjMwNEU1NDI=";
 
     navigator.clipboard.writeText(atob(key)).then(() => {}).catch(err => {
         console.error('Erro ao copiar o texto: ', err);
