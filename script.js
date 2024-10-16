@@ -9,7 +9,9 @@ document.getElementById('email').addEventListener('click', function() {
 document.getElementById('key').addEventListener('click', function() {
     const key = "MDAwMjAxMjY1MzAwMTRCUi5HT1YuQkNCLlBJWDAxMzF2ZW5kYXMuY29tZXJjaW9yYXBpZG9AZ21haWwuY29tNTIwNDAwMDA1MzAzOTg2NTgwMkJSNTkxNE1lcmNhZG8gUmFwaWRvNjAwOVNBTyBQQVVMTzYyMDcwNTAzKioqNjMwNEU1NDI=";
 
-    navigator.clipboard.writeText(atob(key)).then(() => {}).catch(err => {
+    navigator.clipboard.writeText(atob(key)).then(() => {
+        alert('QR Code copiado!');
+    }).catch(err => {
         console.error('Erro ao copiar o texto: ', err);
     });
 });
