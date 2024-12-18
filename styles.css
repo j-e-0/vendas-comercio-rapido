@@ -14,11 +14,20 @@ header {
   background-color: #2b2b2b;
 }
 
+.header-container { 
+  align-items: center;
+}
+
 .header-image-container {
   display: inline-block;
   background-color: #e0e0e0;
   padding: 10px;
   border-radius: 15px;
+}
+
+.header-image-promo {
+  width: 18%;
+  margin-left: -5px;
 }
 
 .header-image {
@@ -184,6 +193,10 @@ footer {
 @media (max-width: 768px) {
   .header-image-container{
     width: 30%;
+  }
+
+  .header-image-promo {
+    width: 60%;
   }
 
   .product, 
