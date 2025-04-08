@@ -6,19 +6,6 @@
     <description>Catálogo completo de perfumes e kits presenteáveis disponíveis para compra online e localmente, com informações otimizadas para o Google Merchant Center.</description>
     <channel>both</channel>
     
-    <!-- Produto 1 -->
-    <item>
-      <g:id>KITNATAL001</g:id>
-      <g:title>Kit de Natal Personalizado</g:title>
-      <g:description>Surpreenda neste Natal com nosso Kit Personalizado! Inclui uma embalagem com laço, um sabonete Natura Tododia e uma fragrância exclusiva. Disponível também na opção com apenas o sabonete. Uma combinação sofisticada e cheia de carinho.</g:description>
-      <g:link>https://www.vendascomerciorapido.com.br#kit</g:link>
-      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/kit-natal-new.png</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>60.00 BRL</g:price>
-      <g:brand>Comércio Rápido</g:brand>
-      <g:condition>new</g:condition>
-    </item>
-
     <!-- Produto 2 -->
     <item>
       <g:id>PERF001</g:id>
@@ -145,6 +132,32 @@
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/rox247-clean.png</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>45.00 BRL</g:price>
+      <g:brand>Comércio Rápido</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+
+    <!-- Produto 12 -->
+    <item>
+      <g:id>POWERBANK001</g:id>
+      <g:title>Bateria Externa - Power Bank 10.000 mAh</g:title>
+      <g:description>Versatilidade: Com três cabos (ou mais), você pode carregar vários dispositivos ao mesmo tempo, independentemente de serem smartphones, tablets, fones de ouvido ou outros aparelhos eletrônicos.</g:description>
+      <g:link>https://www.vendascomerciorapido.com.br#powerbankcable</g:link>
+      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/powerbank10000.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>90.00 BRL</g:price>
+      <g:brand>Comércio Rápido</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+
+    <!-- Produto 13 -->
+    <item>
+      <g:id>POWERBANK002</g:id>
+      <g:title>Bateria por Indução - Mega Safe 3.000 mAh</g:title>
+      <g:description>Encaixar a bateria MagSafe é muito simples com seu design compacto e intuitivo basta conectar o carregador magneticamente à parte traseira do seu telefone, sem cabos, rápido e prático.</g:description>
+      <g:link>https://www.vendascomerciorapido.com.br#powerbankinduction</g:link>
+      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/powerbank3000.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>90.00 BRL</g:price>
       <g:brand>Comércio Rápido</g:brand>
       <g:condition>new</g:condition>
     </item>
