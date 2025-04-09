@@ -9,7 +9,7 @@
     <!-- Produto 2 -->
     <item>
       <g:id>PERF001</g:id>
-      <g:title>Perfume Empoderada</g:title>
+      <g:title>Perfume Empoderada (ref. My Way)</g:title>
       <g:description>Empoderada é uma fragrância única que celebra a força feminina. Com notas florais e almiscaradas, é ideal para encontros, eventos ou uso diário. Eleve sua autoestima com esta essência sofisticada e envolvente.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#empoderada</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/empoderada-clean.png</g:image_link>
@@ -22,7 +22,7 @@
     <!-- Produto 3 -->
     <item>
       <g:id>PERF002</g:id>
-      <g:title>Perfume Every Day</g:title>
+      <g:title>Perfume Every Day (ref. La Nuit Tresor)</g:title>
       <g:description>Every Day é uma fragrância que combina mistério, paixão e sensualidade. Ideal para mulheres que desejam exalar confiança e charme em qualquer ocasião. Versátil e irresistível, perfeito para uso diário ou momentos especiais.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#everyday</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/everyday-clean.png</g:image_link>
@@ -35,7 +35,7 @@
     <!-- Produto 4 -->
     <item>
       <g:id>PERF003</g:id>
-      <g:title>Perfume Delirium</g:title>
+      <g:title>Perfume Delirium (ref. Fame)</g:title>
       <g:description>Delirium celebra a feminilidade moderna com uma fragrância luxuosa. Ideal para encontros, eventos ou uso diário, essa essência exala confiança e poder pessoal em qualquer ambiente.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#delirium</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/delirium-clean.png</g:image_link>
@@ -48,7 +48,7 @@
     <!-- Produto 5 -->
     <item>
       <g:id>PERF004</g:id>
-      <g:title>Perfume Courage</g:title>
+      <g:title>Perfume Courage (ref. Good Girl)</g:title>
       <g:description>Courage é uma fragrância audaciosa que exala sensualidade. Ideal para mulheres determinadas e confiantes, perfeita para eventos especiais ou uso diário.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#courage</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/courage-clean.png</g:image_link>
@@ -61,7 +61,7 @@
     <!-- Produto 6 -->
     <item>
       <g:id>PERF005</g:id>
-      <g:title>Perfume Majestic</g:title>
+      <g:title>Perfume Majestic (ref. Idole)</g:title>
       <g:description>Majestic redefine o sucesso para mulheres confiantes. Combinando leveza e frescor, é perfeita para o dia a dia, encontros sociais ou momentos especiais.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#majestic</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/majestic-clean.png</g:image_link>
@@ -74,7 +74,7 @@
     <!-- Produto 7 -->
     <item>
       <g:id>PERF006</g:id>
-      <g:title>Perfume Change</g:title>
+      <g:title>Perfume Change (ref. Phanton)</g:title>
       <g:description>CHANGE exala autoconfiança e boas energias. Perfeito para homens modernos e elegantes que buscam irradiar positividade no dia a dia.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#change</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/change-clean.png</g:image_link>
@@ -87,7 +87,7 @@
     <!-- Produto 8 -->
     <item>
       <g:id>PERF007</g:id>
-      <g:title>Perfume Evolution</g:title>
+      <g:title>Perfume Evolution (ref. Ferrari Black)</g:title>
       <g:description>Evolution é a essência de mistério e sofisticação para homens confiantes. Ideal para eventos e ocasiões românticas.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#evolution</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/evolution-clean.png</g:image_link>
@@ -100,7 +100,7 @@
     <!-- Produto 9 -->
     <item>
       <g:id>PERF008</g:id>
-      <g:title>Perfume Imparável</g:title>
+      <g:title>Perfume Imparável (ref. Invictus Victory)</g:title>
       <g:description>Com notas vibrantes e intensas, Imparável é a fragrância para homens que desejam se destacar e impressionar.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#imparavel</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/imparavel-clean.png</g:image_link>
@@ -113,7 +113,7 @@
     <!-- Produto 10 -->
     <item>
       <g:id>PERF009</g:id>
-      <g:title>Perfume Move On</g:title>
+      <g:title>Perfume Move On (ref. The Most Wanted)</g:title>
       <g:description>Move On é a fragrância para homens ousados e destemidos, unindo frescor e calor para um estilo inconfundível.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#moveon</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/move-on-clean.png</g:image_link>
@@ -126,7 +126,7 @@
     <!-- Produto 11 -->
     <item>
       <g:id>PERF010</g:id>
-      <g:title>Perfume Rox 247</g:title>
+      <g:title>Perfume Rox 247 (ref. Silver Scent)</g:title>
       <g:description>Uma fragrância que equilibra frescor e calor, perfeita para homens autoconfiantes. Ideal para ocasiões especiais, encontros e ambientes profissionais, garantindo uma presença marcante e sofisticada.</g:description>
       <g:link>https://www.vendascomerciorapido.com.br#rox247</g:link>
       <g:image_link>https://www.vendascomerciorapido.com.br/img/products/rox247-clean.png</g:image_link>
