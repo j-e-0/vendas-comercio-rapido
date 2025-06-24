@@ -136,6 +136,45 @@
       <g:condition>new</g:condition>
     </item>
 
+    <!-- Produto 11 --> 
+    <item>
+      <g:id>PERF011</g:id>
+      <g:title>Perfume Volts (ref. 1 Million Prive)</g:title>
+      <g:description>Volts é um perfume quente, cremoso e especiado, com notas de baunilha, canela e madeiras nobres. Ideal para noites frias, transmite sofisticação e presença marcante.</g:description>
+      <g:link>https://www.vendascomerciorapido.com.br#volts</g:link>
+      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/volts.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>45.00 BRL</g:price>
+      <g:brand>Comércio Rápido</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+
+    <!-- Produto 12 --> 
+    <item>
+      <g:id>PERF012</g:id>
+      <g:title>Perfume Raffiné (ref. Dior Sauvage Elixir)</g:title>
+      <g:description>Raffiné combina frescor cítrico e picância elegante com um fundo amadeirado envolvente. Uma fragrância masculina refinada, ideal para quem busca presença e elegância.</g:description>
+      <g:link>https://www.vendascomerciorapido.com.br#raffine</g:link>
+      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/raffine.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>45.00 BRL</g:price>
+      <g:brand>Comércio Rápido</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+
+    <!-- Produto 13 --> 
+    <item>
+      <g:id>PERF013</g:id>
+      <g:title>Perfume 247 Vip Man (ref. 212 VIP Men)</g:title>
+      <g:description>247 Vip Man é uma fragrância oriental amadeirada e marcante. Com notas de caviar, vodka e madeira nobre, transmite sensualidade, luxo e energia para as noites mais exclusivas.</g:description>
+      <g:link>https://www.vendascomerciorapido.com.br#vipman</g:link>
+      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/vipman.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>45.00 BRL</g:price>
+      <g:brand>Comércio Rápido</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+
     <!-- Produto 12 -->
     <item>
       <g:id>POWERBANK001</g:id>
