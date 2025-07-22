@@ -201,5 +201,18 @@
       <g:condition>new</g:condition>
     </item>
 
+    <!-- Produto 14 --> 
+    <item>
+      <g:id>PERF014</g:id>
+      <g:title>Perfume Jess (ref. La Vie Est Belle)</g:title>
+      <g:description>Jess é uma fragrância feminina alegre e encantadora, que une flor de Íris, notas frutadas e um fundo adocicado de baunilha e pralinê. Perfeita para realçar sua elegância em todas as ocasiões.</g:description>
+      <g:link>https://www.vendascomerciorapido.com.br#jess</g:link>
+      <g:image_link>https://www.vendascomerciorapido.com.br/img/products/jess.png</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>45.00 BRL</g:price>
+      <g:brand>Comércio Rápido</g:brand>
+      <g:condition>new</g:condition>
+    </item>
+
   </channel>
 </rss>

@@ -90,4 +90,10 @@
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.vendascomerciorapido.com.br#jess</loc>
+    <lastmod>2025-07-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
