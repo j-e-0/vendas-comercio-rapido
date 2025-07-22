@@ -235,6 +235,20 @@
     gtag('js', new Date());
 
     gtag('config', 'G-34CR5Z5WRS');
+    gtag('config', 'AW-16810450700');
+
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-16810450700/RgjiCJ-d4fUaEIy-7M8-',
+        'event_callback': callback
+      });
+      return false;
+    }
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -277,7 +291,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -319,7 +333,9 @@
           <p><strong>Notas de Coração:</strong> Íris, Jasmin, Flor de Laranjeira</p>
           <p><strong>Notas de Base:</strong> Patchouli, Fava Tonka, Baunilha, Pralinê</p>
         </div>
-        <p>Jess é uma fragrância floral e frutada, alegre e feminina. Combinando a nobreza da flor de Íris com toques doces de baunilha e pralinê, é perfeita para mulheres elegantes que amam se destacar com suavidade e sofisticação.</p>
+        <p>Jess é uma fragrância floral e frutada, alegre e feminina. Combinando a nobreza da flor de Íris com toques
+          doces de baunilha e pralinê, é perfeita para mulheres elegantes que amam se destacar com suavidade e
+          sofisticação.</p>
       </div>
     </div>
 
@@ -596,7 +612,8 @@
       <h2>Entre em Contato</h2>
       <p id="email">vendas.comerciorapido@gmail.com</p>
       <h2>ou</h2>
-      <form id="form-contact" action="https://wa.me/5541992218849" method="get">
+      <form id="form-contact" onclick="return gtag_report_conversion('https://wa.me/5541992218849');"
+        action="https://wa.me/5541992218849" method="get">
         <button type="submit">WhatsApp</button>
       </form>
     </div>
